@@ -16,6 +16,7 @@ namespace Gridnine.FlightCodingTest
             Print(flights, filters, flights);
             while (true)
             {
+
                 string input = Console.ReadLine();
                 if (input.ToLower() == "exit")
                 {
